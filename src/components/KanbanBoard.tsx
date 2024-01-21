@@ -287,7 +287,7 @@ function KanbanBoard() {
     const isActiveAColumn = active.data.current?.type === "Column";
     if (!isActiveAColumn) return;
 
-    console.log("DRAG END");
+    console.log("FIN DU TRAÎNEMENT");
 
     setColumns((columns) => {
       const activeColumnIndex = columns.findIndex((col) => col.id === activeId);
@@ -336,7 +336,7 @@ function KanbanBoard() {
         const activeIndex = tasks.findIndex((t) => t.id === activeId);
 
         tasks[activeIndex].columnId = overId;
-        console.log("DROPPING TASK OVER COLUMN", { activeIndex });
+        console.log("SUPPRIMER UNE TÂCHE SUR LA COLONNE", { activeIndex });
         return arrayMove(tasks, activeIndex, activeIndex);
       });
     }
