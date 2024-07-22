@@ -149,7 +149,7 @@ function ColumnContainer({
           }}
           className="
         stroke-gray-500
-        hover:stroke-white
+        hover:red
         hover:bg-columnBackgroundColor
         rounded
         px-1
