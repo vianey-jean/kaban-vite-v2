@@ -26,6 +26,10 @@ const defaultCols: Column[] = [
     title: "Travaux en cours",
   },
   {
+    id: "test",
+    title: "A Tester",
+  },
+  {
     id: "fini",
     title: "Fait",
   },
@@ -95,7 +99,7 @@ const defaultTasks: Task[] = [
   },
   {
     id: "13",
-    columnId: "travail",
+    columnId: "test",
     content: "Concevoir et mettre en œuvre un U réactifI",
   },
 ];
